@@ -10,7 +10,7 @@ admin._pathok = os.getcwd()
 os.system("cls")
 while option != 0:
     print("WELCOME!".center(50, "-"))
-    print("1-Create folders \n2-Create files \n3-Delete folders \n4-Delete files" +
+    print(Fore.GREEN, "1-Create folders \n2-Create files \n3-Delete folders \n4-Delete files" +
           "\n5-Rename folders and files \n6-Print folders\n7-Print files\n8-Print files and folders\n0-End")
     option = int(input("option ->"))
     if option == 1:
